@@ -1,0 +1,13 @@
+<p>This is the babertodo view.</p>
+
+<div>
+    <input type="text" name="item" ng-model="item">
+    <input type="button" ng-click="addItem()" value="Add Item">
+</div>
+
+<div ng-repeat="todo in todoList">
+    <div>{{todo.name}}</div>
+</div>
+
+
+
